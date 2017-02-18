@@ -4,9 +4,10 @@ class Php55Protobuf < AbstractPhp55Extension
   init
   desc "Fast PHP Protocol Buffers implementation"
   homepage "https://github.com/allegro/php-protobuf"
+  url "https://github.com/allegro/php-protobuf/archive/v0.11.1.tar.gz"
+  sha256 "949ece1ded96ff19597cd1f8ab5febffa77bcdf30c679d3f440fb42e8a090431"
+  version_scheme 1
   head "https://github.com/allegro/php-protobuf.git"
-  url "https://github.com/allegro/php-protobuf/archive/0.10.tar.gz"
-  sha256 "442e83dd47f5052e7e0bd4a46ab190a46115781e3c520df8319779689920a411"
 
   bottle do
     cellar :any_skip_relocation
